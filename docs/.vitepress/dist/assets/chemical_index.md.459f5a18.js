@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.97fbe135.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"chemical/index.md","lastUpdated":1681874415000}'),c={name:"chemical/index.md"};function n(r,o,s,d,i,p){return a(),t("div")}const l=e(c,[["render",n]]);export{m as __pageData,l as default};

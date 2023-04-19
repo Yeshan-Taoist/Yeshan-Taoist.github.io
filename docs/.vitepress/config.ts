@@ -1,10 +1,6 @@
-import { createRequire } from "module";
 import { defineConfig } from "vitepress";
 import { nav } from "./nav";
 import { sidebar } from "./sidebar";
-
-const require = createRequire(import.meta.url);
-const pkg = require("vitepress/package.json");
 
 export default defineConfig({
   base: "/",
