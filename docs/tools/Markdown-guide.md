@@ -9,7 +9,7 @@ tags:
 > 专注于文字内容；
 > 纯文本，易读易写，可以方便地纳入版本控制；
 > 语法简单，没有什么学习成本，能在轻松码字的同时做出美观大方的排版。
-> [Markdown 英文官方](https://www.markdownguide.org)<br>[Markdown 中文](https://markdown.com.cn/)
+> [Markdown 英文官方](https://www.markdownguide.org) > [Markdown 中文](https://markdown.com.cn/)
 
 ## 工具介绍
 
@@ -354,13 +354,15 @@ tags:
 > 要添加图像，使用感叹号 (!), 然后在中括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本
 
 - 图片展示，代码及效果
-  - `![图片 alt](图片链接 "图片 title")`
-  - ![这是图片](https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080 "Magic Gardens")
+  - 代码
+    - `![图片 alt](图片链接 "图片 title")`
+  - 效果
+    <a href="https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080 " target="_blank" rel="noreferer"><img src="https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080 " alt="Magic Gardens" title="Magic Gardens"></a>
 - 图片链接，代码及效果
   - 代码
     - `[![兰州小西湖图片](https://youimg1.c-ctrip.com/target/100p1f000001gpgsq931A.jpg)](https://youimg1.c-ctrip.com/target/100p1f000001gpgsq931A.jpg)`
   - 效果
-    - [![兰州小西湖图片](https://youimg1.c-ctrip.com/target/100p1f000001gpgsq931A.jpg)](https://youimg1.c-ctrip.com/target/100p1f000001gpgsq931A.jpg)
+    <a href="https://youimg1.c-ctrip.com/target/100p1f000001gpgsq931A.jpg" target="_blank" rel="noreferer"><img src="https://youimg1.c-ctrip.com/target/100p1f000001gpgsq931A.jpg" alt="兰州小西湖图片" title="兰州小西湖图片"></a>
 
 ### 转义字符语法-Escaping Characters
 

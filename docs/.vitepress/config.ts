@@ -9,6 +9,8 @@ export default defineConfig({
   description: "孜孜以求大道，以致人生通达。",
   lastUpdated: true,
   cleanUrls: true,
+  // 忽略死链
+  ignoreDeadLinks: true,
 
   // head: [["link", { rel: "icon", href: "favicon.ico" }]],
 
