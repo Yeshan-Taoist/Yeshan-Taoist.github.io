@@ -16,6 +16,12 @@ export default defineConfig({
 
   // head: [["link", { rel: "icon", href: "favicon.ico" }]],
 
+  //markdown定义
+  markdown: {
+    theme: "material-theme-palenight",
+    lineNumbers: true,
+  },
+
   themeConfig: {
     outline: "deep",
     outlineTitle: "目录",
