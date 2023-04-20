@@ -11,6 +11,8 @@ export default defineConfig({
   cleanUrls: true,
   // 忽略死链
   ignoreDeadLinks: true,
+  //暗黑模式
+  appearance: true,
 
   // head: [["link", { rel: "icon", href: "favicon.ico" }]],
 
