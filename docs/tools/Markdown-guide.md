@@ -9,7 +9,8 @@ tags:
 > 专注于文字内容；
 > 纯文本，易读易写，可以方便地纳入版本控制；
 > 语法简单，没有什么学习成本，能在轻松码字的同时做出美观大方的排版。
-> [Markdown 英文官方](https://www.markdownguide.org) > [Markdown 中文](https://markdown.com.cn/)
+> [Markdown 英文官方](https://www.markdownguide.org)
+> [Markdown 中文](https://markdown.com.cn/)
 
 ## 工具介绍
 
