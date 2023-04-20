@@ -12,7 +12,7 @@ export default defineConfig({
   // 忽略死链
   ignoreDeadLinks: true,
   //暗黑模式
-  appearance: true,
+  appearance: "dark",
 
   // head: [["link", { rel: "icon", href: "favicon.ico" }]],
 
