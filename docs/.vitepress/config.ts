@@ -10,7 +10,7 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
 
-  head: [["link", { rel: "icon", href: "favicon.ico" }]],
+  // head: [["link", { rel: "icon", href: "favicon.ico" }]],
 
   themeConfig: {
     outline: "deep",

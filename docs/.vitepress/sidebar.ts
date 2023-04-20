@@ -14,7 +14,7 @@ export const sidebar: DefaultTheme.Sidebar = [
     text: "常用工具",
     collapsed: false,
     items: [
-      { text: "Markdown 语法整理", link: "/tools/markdown" },
+      { text: "Markdown 语法整理", link: "/tools/Markdown-guide" },
       {
         text: "AutoCAD-Plant-3D-使用指导",
         link: "/tools/AutoCAD-Plant-3D-guide",

@@ -6,16 +6,13 @@ export const nav: DefaultTheme.NavItem[] = [
   {
     text: "自我介绍",
     link: "/guide/about",
-    activeMatch: "/guide/",
   },
   {
     text: "常用工具",
     link: "/tools/index",
-    activeMatch: "/tools/",
   },
   {
     text: "化工相关",
-    link: "/chemical/index",
-    activeMatch: "/chemical/",
+    link: "https://blog.yeshan-taoist.cn/chemical/",
   },
 ];
