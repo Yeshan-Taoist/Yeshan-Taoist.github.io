@@ -12,7 +12,11 @@ export const nav: DefaultTheme.NavItem[] = [
     link: "/tools/index",
   },
   {
-    text: "化工相关",
+    text: "化工",
     link: "https://blog.yeshan-taoist.cn/chemical/",
+  },
+  {
+    text: "文学",
+    link: "https://blog.yeshan-taoist.cn/literature/",
   },
 ];
