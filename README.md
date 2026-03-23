@@ -10,11 +10,8 @@
 
 # 📪 联系方式
 
-Reach out to me via [LinkedIn](https://www.linkedin.com/in/bryanhoganme/) or send a mail to Bryan@BryanHogan.com
-
-
 <table>
     <tr>
-    <td align="center" width="200"><pre><a href="https://github.com/BryanHogan"><img src="https://avatars.githubusercontent.com/u/93101097?v=4" width="200" alt="Bryan Hogan Github Avatar" /><br><sub>Bryan Hogan</sub></a><br>@BryanHogan</pre></td>
+    <td align="center" width="200"><pre><a href="https://github.com/Yeshan-Taoist"><img src="https://avatars.githubusercontent.com/u/57309793?s=400&u=fccf1488d60c1980dd4f51330ea33798e6b376e0&v=4" width="200" alt="Yeshan Taoist Github Avatar" /><br><sub>Yeshan-Taoist</sub></a><br>@Yeshan-Taoist</pre></td>
     </tr>
 </table>
