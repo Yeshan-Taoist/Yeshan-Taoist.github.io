@@ -1,6 +1,6 @@
 // .vitepress/config.mts
 import { defineConfig } from 'vitepress'
-import { sidebar } from './sidebar.js'   // 导入生成的侧边栏
+import { sidebar as articleSidebar } from './sidebar.js'   // 导入生成的侧边栏
 
 export default defineConfig({
   // 用户站点不需要 base，删除或留空
@@ -33,7 +33,19 @@ export default defineConfig({
   ],
   themeConfig: {
     nav: [{ text: '首页', link: '/' }],
-    sidebar,   // 直接使用
+
+    sidebar: {
+      '/': [   // 首页显示的侧边栏
+        {
+          text: '导航',
+          items: [
+            { text: '首页', link: '/' },
+            { text: '关于', link: '/about' }   // 如果有 about 页
+          ]
+        }
+      ],
+      ...articleSidebar   // 文章页原有的侧边栏
+    },   // 直接使用
     socialLinks: [{ icon: 'github', link: 'https://github.com/Yeshan-Taoist' }]
   }
 })
