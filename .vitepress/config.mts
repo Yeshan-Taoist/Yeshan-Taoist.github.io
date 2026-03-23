@@ -4,11 +4,24 @@ import { sidebar } from './sidebar.js'   // 导入生成的侧边栏
 
 export default defineConfig({
   // 用户站点不需要 base，删除或留空
+  lang: 'en-US',
   title: '野山杂货铺',
   description: '一个用来记录个人思绪的地方',
+  head: [
+    [
+      'script',
+      { id: 'register-sw' },
+      `;(() => {
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js')
+        }
+      })()`
+    ],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     nav: [{ text: '首页', link: '/' }],
     sidebar,   // 直接使用
-    socialLinks: [{ icon: 'github', link: 'https://github.com/你的用户名' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Yeshan-Taoist' }]
   }
 })

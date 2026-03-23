@@ -12,7 +12,7 @@ hero:
       link: docs/A-tech/api-examples
     - theme: alt
       text: Markdown Examples
-      link: docs/B-/markdown-examples
+      link: docs/B-Journal/markdown-examples
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
