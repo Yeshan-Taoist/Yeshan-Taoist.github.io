@@ -8,28 +8,11 @@ export default defineConfig({
   title: '野山杂货铺',
   description: '一个用来记录个人思绪的地方',
   head: [
-    [
-      'script',
-      { id: 'register-sw' },
-      `;(() => {
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/sw.js')
-        }
-      })()`
-    ],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     [
       'script',
       { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID' }
     ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'TAG_ID');`
-    ]
   ],
   themeConfig: {
     // 导航栏 Logo 或者使用亮色/暗色两套：
