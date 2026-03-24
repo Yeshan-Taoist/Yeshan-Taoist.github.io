@@ -20,7 +20,6 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '全部', link: '/all-posts' },
       { text: '关于', link: '/about' }
     ],
 

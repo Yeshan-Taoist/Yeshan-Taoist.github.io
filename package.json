@@ -4,11 +4,9 @@
     "vitepress": "^2.0.0-alpha.17"
   },
   "scripts": {
-    "docs:dev": "npm run generate:all && vitepress dev",
-    "docs:build": "npm run generate:all && vitepress build",
+    "docs:dev": "npm run generate:sidebar && vitepress dev",
+    "docs:build": "npm run generate:sidebar && vitepress build",
     "docs:preview": "vitepress preview",
-    "generate:sidebar": "node scripts/generateSidebar.js",
-    "generate:posts": "node scripts/generate-posts-data.js",
-    "generate:all": "node scripts/generate-posts-data.js && node scripts/generate-posts-data.js"
+    "generate:sidebar": "node scripts/generateSidebar.js"
   }
 }
