@@ -1,19 +1,40 @@
 /* .vitepress/theme/style.css */
 
-/*自定义logo样式*/
+/* 自定义 name 的颜色 */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+}
 
+/* 自定义 name 的样式 */
+.VPHomeHero .name {
+  line-height: 54px;
+  font-size: 48px;
+}
+
+/* 自定义 text 的样式 */
+.VPHomeHero .text {
+  line-height: 40px;
+  font-size: 36px;
+}
+
+/* 自定义 tagline 的样式 */
+.VPHomeHero .tagline {
+  line-height: 20px;
+  font-size: 18px;
+}
+
+/* 自定义 actions 的样式 */
+.VPHomeHero .actions {
+  line-height: 20px;
+  font-size: 18px;
+  padding-top: 16px;
+}
+
+/*自定义logo样式*/
 .VPNavBar .logo {
   height: 64px;
   /* 调整为所需高度 */
   width: auto;
   /* 宽度自适应，保持比例 */
-}
-
-/*调整导航栏高度和内边距*/
-
-.VPNavBar {
-  height: 128px;
-  /* 整体高度 */
-  padding: 0 24px;
-  /* 左右内边距 */
 }

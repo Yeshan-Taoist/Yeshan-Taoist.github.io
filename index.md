@@ -1,23 +1,26 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: 野山杂货铺
+  text: 一个用来记录个人思绪的地方
+  tagline: 一人两人三四人，非你非我非你我
+
   actions:
     - theme: brand
-      text: API Examples
-      link: docs/A-tech/api-examples
+      text: GitHub
+      link: /yeshan-taoist.github.io/
+      target: _blank
     - theme: alt
-      text: Markdown Examples
-      link: docs/B-Journal/markdown-examples
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: GitHub
+      link: https://yeshan-taoist.github.io/
+      target: _blank
+    - theme: brand
+      text: GitHub
+      link: https://yeshan-taoist.github.io/
+      target: _blank
+    - theme: alt
+      text: GitHub
+      link: https://yeshan-taoist.github.io/
+      target: _blank
 ---
