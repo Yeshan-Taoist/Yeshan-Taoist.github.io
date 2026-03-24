@@ -9,10 +9,6 @@ export default defineConfig({
   description: '一个用来记录个人思绪的地方',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID' }
-    ],
   ],
   themeConfig: {
     // 导航栏 Logo 或者使用亮色/暗色两套：
@@ -26,8 +22,15 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '关于', link: '/about' }
     ],
+
     // 侧边栏
     sidebar,
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Yeshan-Taoist' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Yeshan-Taoist' }],
+
+    //文章上下篇功能
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    }
   }
 })
