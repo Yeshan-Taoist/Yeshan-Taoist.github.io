@@ -1,6 +1,5 @@
 ---
 outline: deep
-categories: A
 ---
 
 # Runtime API Examples

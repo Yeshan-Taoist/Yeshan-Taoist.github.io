@@ -1,6 +1,5 @@
 ---
 title: Markdown Extension Examples
-categories: B
 ---
 
 # Markdown Extension Examples
