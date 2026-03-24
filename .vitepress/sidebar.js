@@ -10,13 +10,13 @@ export const sidebar = {
       ]
     }
   ],
-  "/docs/B-/": [
+  "/docs/B-Journal/": [
     {
-      "text": "B-",
+      "text": "B-Journal",
       "items": [
         {
-          "text": "markdown-examples",
-          "link": "/docs/B-/markdown-examples"
+          "text": "Markdown Extension Examples",
+          "link": "/docs/B-Journal/markdown-examples"
         }
       ]
     }
