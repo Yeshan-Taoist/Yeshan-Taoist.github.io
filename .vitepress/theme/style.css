@@ -1,0 +1,19 @@
+/* .vitepress/theme/style.css */
+
+/*自定义logo样式*/
+
+.VPNavBar .logo {
+  height: 64px;
+  /* 调整为所需高度 */
+  width: auto;
+  /* 宽度自适应，保持比例 */
+}
+
+/*调整导航栏高度和内边距*/
+
+.VPNavBar {
+  height: 128px;
+  /* 整体高度 */
+  padding: 0 24px;
+  /* 左右内边距 */
+}

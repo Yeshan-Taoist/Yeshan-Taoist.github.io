@@ -32,10 +32,18 @@ export default defineConfig({
     ]
   ],
   themeConfig: {
+    // 导航栏 Logo 或者使用亮色/暗色两套：
+    logo: {
+      light: '/logo-light.png',
+      dark: '/logo-dark.png'
+    },
+    siteTitle: false,
+    // 导航栏
     nav: [
       { text: '首页', link: '/' },
       { text: '关于', link: '/about' }
     ],
+    // 侧边栏
     sidebar,
     socialLinks: [{ icon: 'github', link: 'https://github.com/Yeshan-Taoist' }]
   }

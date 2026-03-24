@@ -7,7 +7,8 @@ export const sidebar = [
         "text": "api-examples",
         "link": "/docs/A-Tech/api-examples"
       }
-    ]
+    ],
+    "order": 1
   },
   {
     "text": "笔由随心",
@@ -17,7 +18,8 @@ export const sidebar = [
         "text": "Markdown Extension Examples",
         "link": "/docs/B-Journal/markdown-examples"
       }
-    ]
+    ],
+    "order": 1
   },
   {
     "text": "深度思考",
@@ -27,7 +29,8 @@ export const sidebar = [
         "text": "nihao",
         "link": "/docs/C-Thoughts/nihao"
       }
-    ]
+    ],
+    "order": 1
   },
   {
     "text": "纷纷乱乱",
@@ -37,6 +40,7 @@ export const sidebar = [
         "text": "nihao",
         "link": "/docs/D-Other/nihao"
       }
-    ]
+    ],
+    "order": 1
   }
 ]
