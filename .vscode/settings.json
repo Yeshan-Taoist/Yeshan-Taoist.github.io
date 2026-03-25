@@ -1,0 +1,6 @@
+{
+  "editor.fontSize": 24,
+  "editor.fontFamily": "NSimSun, monospace",
+  "markdown.preview.fontFamily": "NSimSun,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+  "markdown.extension.toc.orderedList": false
+}

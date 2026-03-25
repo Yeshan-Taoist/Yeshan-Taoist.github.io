@@ -33,6 +33,17 @@ export const sidebar = [
     "order": 3
   },
   {
+    "text": "星露人生",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "StardewValley-Introductiong",
+        "link": "/docs/E-StardewValley/StardewValley-Introductiong"
+      }
+    ],
+    "order": 4
+  },
+  {
     "text": "纷纷乱乱",
     "collapsed": false,
     "items": [
@@ -41,6 +52,6 @@ export const sidebar = [
         "link": "/docs/D-Other/stewed-beef-brisket-with-tomato"
       }
     ],
-    "order": 4
+    "order": 5
   }
 ]
