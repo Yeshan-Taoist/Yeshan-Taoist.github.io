@@ -20,7 +20,13 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于', link: '/about' }
+      {
+        text: '更多',
+        items: [
+          { text: '博客主页', link: 'https://yeshan-taoist.github.io' },
+          { text: '笔由随心', link: 'https://yeshan-taoist.github.io/yeshan-bookself' }
+        ]
+      }
     ],
 
     // 侧边栏
