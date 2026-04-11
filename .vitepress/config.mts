@@ -23,8 +23,8 @@ export default defineConfig({
       {
         text: '更多',
         items: [
-          { text: '博客主页', link: 'https://yeshan-taoist.github.io' },
-          { text: '笔由随心', link: 'https://yeshan-taoist.github.io/yeshan-bookself' }
+          { text: '博客主页', link: 'https://blog.yeshan-taoist.cn/' },
+          { text: '笔由随心', link: 'https://yeshan-bookself.yeshan-taoist.cn/' }
         ]
       }
     ],
