@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/vitepress-plugin-legend/dist/chunk-353BL4L5-C1ZAb07r-BMNIXPVo.js"],
+  "sourcesContent": ["import { g as c } from \"./component-UlsU0pOP.js\";\nfunction i(t, e) {\n  t.accDescr && e.setAccDescription?.(t.accDescr), t.accTitle && e.setAccTitle?.(t.accTitle), t.title && e.setDiagramTitle?.(t.title);\n}\nc(i, \"populateCommonDb\");\nexport {\n  i as t\n};\n"],
+  "mappings": ";;;;;AACA,SAAS,EAAE,GAAG,GAAG;AACf,IAAE,YAAY,EAAE,oBAAoB,EAAE,QAAQ,GAAG,EAAE,YAAY,EAAE,cAAc,EAAE,QAAQ,GAAG,EAAE,SAAS,EAAE,kBAAkB,EAAE,KAAK;AACpI;AACA,EAAE,GAAG,kBAAkB;",
+  "names": []
+}

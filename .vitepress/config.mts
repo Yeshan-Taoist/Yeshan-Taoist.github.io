@@ -1,6 +1,7 @@
 // .vitepress/config.mts
 import { defineConfig } from 'vitepress'
-import { sidebar } from './sidebar.js'   // 导入生成的侧边栏
+import { sidebar } from './sidebar.js'
+import { vitepressPluginLegend } from 'vitepress-plugin-legend'
 
 export default defineConfig({
   // 用户站点不需要 base，删除或留空
@@ -10,12 +11,8 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
+  appearance: false,
   themeConfig: {
-    // 导航栏 Logo 或者使用亮色/暗色两套：
-    logo: {
-      light: '/logo-light.png',
-      dark: '/logo-dark.png'
-    },
     siteTitle: false,
     // 导航栏
     nav: [
@@ -23,7 +20,7 @@ export default defineConfig({
       {
         text: '更多',
         items: [
-          { text: '博客主页', link: 'https://blog.yeshan-taoist.cn/' },
+          { text: '博客主页', link: '/' },
           { text: '笔由随心', link: 'https://yeshan-bookself.yeshan-taoist.cn/' }
         ]
       }
@@ -38,5 +35,21 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇'
     }
-  }
+  },
+  // 关键：通过 markdown 配置启用插件
+  markdown: {
+    config(md) {
+      vitepressPluginLegend(md, {
+        markmap: {
+          showToolbar: true,
+          // 其他 markmap 选项
+        },
+        mermaid: false, // 或 false 禁用
+        infographic: {
+          showToolbar: false,
+          // 其他 infographic 选项
+        },
+      });
+    },
+  },
 })

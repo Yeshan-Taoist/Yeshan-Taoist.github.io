@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/vitepress-plugin-legend/dist/chunk-BFAMUDN2--_mLoQcM-8W1Vf50q.js"],
+  "sourcesContent": ["import { g as n, d as e } from \"./component-UlsU0pOP.js\";\nvar a = /* @__PURE__ */ n((o, t) => {\n  let d;\n  return t === \"sandbox\" && (d = e(\"#i\" + o)), (t === \"sandbox\" ? e(d.nodes()[0].contentDocument.body) : e(\"body\")).select(`[id=\"${o}\"]`);\n}, \"getDiagramElement\");\nexport {\n  a as d\n};\n"],
+  "mappings": ";;;;;;AACA,IAAI,IAAoB,EAAE,CAAC,GAAG,MAAM;AAClC,MAAI;AACJ,SAAO,MAAM,cAAc,IAAI,GAAE,OAAO,CAAC,KAAK,MAAM,YAAY,GAAE,EAAE,MAAM,EAAE,CAAC,EAAE,gBAAgB,IAAI,IAAI,GAAE,MAAM,GAAG,OAAO,QAAQ,CAAC,IAAI;AACxI,GAAG,mBAAmB;",
+  "names": []
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "checkJs": false,
+    "strict": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    ".vitepress/**/*.ts",
+    "**/*.ts",
+    ".vitepress/posts.js",
+    ".vitepress/posts.data.ts",
+    ".vitepress/sidebar.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".vitepress/cache",
+    ".vitepress/dist",
+    ".vitepress/sidebar.ts"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/vitepress-plugin-legend/dist/clone-78XdctpQ-DP6jZ9da.js"],
+  "sourcesContent": ["import { C as o } from \"./_baseUniq-BxlSXXQG-mwChZi-I.js\";\nvar t = 4;\nfunction n(r) {\n  return o(r, t);\n}\nexport {\n  n as a\n};\n"],
+  "mappings": ";;;;;AACA,IAAI,IAAI;AACR,SAAS,EAAE,GAAG;AACZ,SAAO,EAAE,GAAG,CAAC;AACf;",
+  "names": []
+}
